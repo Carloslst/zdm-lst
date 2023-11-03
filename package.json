@@ -1,0 +1,19 @@
+{
+  "name": "pic-vid-tool",
+  "version": "1.0.0",
+  "description": "For image processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carloslst/zdm-lst.git"
+  },
+  "author": "carloslst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carloslst/zdm-lst/issues"
+  },
+  "homepage": "https://github.com/Carloslst/zdm-lst#readme"
+}
