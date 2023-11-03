@@ -1,0 +1,14 @@
+node_modules
+dist
+/public
+/docs
+packages/editor/to-delete
+assets
+public
+*.sh
+*.md
+*.woff
+*.ttf
+.vscode
+.idea
+/bin
