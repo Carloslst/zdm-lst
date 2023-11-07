@@ -14,12 +14,14 @@
     "dayjs": "^1.11.10",
     "echarts": "^5.4.3",
     "element-plus": "^2.4.2",
+    "js-cookie": "^3.0.5",
     "pinia": "^2.1.7",
     "qs": "^6.11.2",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.5",
     "@vitejs/plugin-vue": "^4.4.0",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
     "rollup-plugin-visualizer": "^5.9.2",

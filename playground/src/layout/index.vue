@@ -1,4 +1,3 @@
 <template>
-  <div>初始化项目阶段</div>
+  <div>11</div>
 </template>
-<script setup lang="ts"></script>

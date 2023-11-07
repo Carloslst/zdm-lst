@@ -1,4 +1,4 @@
 <template>
-  <div>1111</div>
+  <div>我是dashboard</div>
 </template>
 <script setup lang="ts"></script>

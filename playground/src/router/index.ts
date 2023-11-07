@@ -42,6 +42,17 @@ export const constantRoutes: Array<RouteRecordRaw> = [
     component: () => import("@/views/error-page/401.vue"),
   },
   {
+    path: "/redirect",
+    component: Layout,
+    hidden: true,
+    children: [
+      {
+        path: "/redirect/:path(.*)",
+        component: () => import("@/redirect/index.vue"),
+      },
+    ],
+  },
+  {
     path: "/",
     component: Layout,
     redirect: "/dashboard",
@@ -49,8 +60,7 @@ export const constantRoutes: Array<RouteRecordRaw> = [
       {
         path: "dashboard",
         name: "Dashboard",
-        // component: () => import("@/views/dashboard/index.vue"),
-        component: () => import("@/views/tools/test.vue"),
+        component: () => import("@/views/dashboard/index.vue"),
         meta: { title: "Dashboard", icon: "dashboard" },
       },
     ],
